@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phantom Blog</title>
+    <link rel="stylesheet" href="../css/blog_post.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="subscribe">
+            <a href="main.html">
+                <u>Subscribe</u>
+            </a>
+        </div>
+        <div class="blog-title">
+            <a href="../main.html">
+                <h1>Phantom Blog</h1>
+            </a>
+        </div>
+        <div class="search">&#x1F50D;</div>
+    </div>
+    <div class="container">
+        <div class="header box">
+            <div class="blog-title">
+                <h1>The Future of Code Is in Your Browser</h1>
+            </div>
+            <div class="blog-description">
+                <h4>Cloud-based coding environments like GitHub's new Codespaces make programming more accessible</h4>
+            </div>
+            <div class="blog-date">
+                <p>May 13, 2020 by Owen</p>
+            </div>
+        </div>
+        <div class="sidebar box">
+            <div class="sidebar-container">
+                <div class="sidebar-about">
+                    <h3><em>About</em></h3>
+                    <p>
+                        I write weekly newsletter about how the new forms of social, cultural, and environmental
+                        capital change brand strategy.
+                    </p>
+                </div>
+                <div class="sidebar-archives">
+                    <h3><em>Archives</em></h3>
+                    <a href="./blog_post_1.html">Business</a><br>
+                    <a href="./blog_post_2.html">Economy</a><br>
+                    <a href="./blog_post_3.html">Leadership</a><br>
+                    <a href="./blog_post_4.html">Biotech</a><br>
+                    <a href="./blog_post_5.html">Programming</a><br>
+                    <a href="./blog_post_6.html">Space</a>
+                </div>
+                <div class="sidebar-elsewhere">
+                    <h3><em>Elsewhere</em></h3>
+                    <a href="https://github.com/oranje19">GitHub</a>
+                    <br>
+                    <a href="https://www.linkedin.com/in/jasonwintery/">LinkedIn</a>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="content box">
+            <div>
+                <p>
+                    Over the past decade, desktop software has gradually been eaten by the web browser: Music moved from iTunes to Spotify
+                    and Pandora, word processing moved online to Google Docs and Office 365, and design moved from Photoshop to Figma.
+                </p>
+                <p>
+                    Web development, though, has remained loyal to the desktop, requiring increasingly powerful computers to handle modern
+                    programming. While code editing tools like Glitch and CodePen have allowed developers to do some work on the web, more
+                    complex development languages have remained stubbornly connected to desktop software.
+                </p>
+                <p>
+                    The popular software development hosting platform GitHub may be about to change that status quo. The Microsoft-owned
+                    company unveiled a new code editor called Codespaces last week that works entirely in the web browser, regardless of the
+                    device you’re using. Based on the same codebase as Microsoft’s Visual Studio Code editor — which runs on Windows, Linux,
+                    and macOS — Codespaces creates a button on the GitHub website that is a one-click route to your entire development
+                    environment online. Since GitHub is where many developers are already accessing and storing their code regardless of
+                    which coding environment they use, it’s a convenient place to launch a code editor. And there’s no need to install
+                    anything on your device.
+                </p>
+                <p>
+                    To be clear, Codespaces isn’t just a code editor—it’s also an entire “containerized” version of your servers, meaning it
+                    allows you to preconfigure whatever resources you need, like a PHP server and a Redis cache, to work on a project.
+                </p>
+                <p>
+                    Made popular by a company called Docker, containers allow server functionality to be packaged into tiny, lightweight
+                    slices, which can be mix-and-matched together to build a development environment. If you’re working on a PHP-based
+                    Laravel project, for example, you’ll need a PHP server, MySQL, and a Redis cache. With containerization, you specify
+                    that you need each of these technologies, and they’re set up every time you open your codebase, making it easier to move
+                    between machines and reproduce your development environment without reconfiguring it on each device.
+                </p>
+                <p>
+                    Each Codespaces environment contains a Dockerfile, which specifies the containers and configuration of your environment,
+                    as well as a file that tells Codespaces how you want your development environment set up.
+                </p>
+                <p>
+                    Unlike development environments of the past, with Codespaces there is no need to configure local servers and
+                    applications to start coding. If a developer needs to quickly get up to speed on a project, it’s a single click to have
+                    all of your servers and configuration ready for development.
+                </p>
+                <p>
+                    Moving coding to the cloud also opens the door for connected developer experiences. A Live Share feature that works
+                    similarly to a shared Google doc allows remote developers to work together on a programming problem, with built-in audio
+                    and text chat.
+                </p>
+                <p>
+                    The master stroke of Codespaces, however, is a “remote” feature that allows developers to use their existing desktop
+                    installs of Microsoft Visual Studio Code whenever they want to, even if they don’t have a heavy-duty computer capable of
+                    running their actual codebase with them. When they’re on the go, they can connect to their Visual Studio Code
+                    environment using the feature and use the web editor in the cloud, with all the same setup, extensions, and even color
+                    schemes, as if they were working on their local machine.
+                </p>
+                <p>
+                    While cloud-based products similar to Codespaces, like Coder and Amazon’s Cloud9, have existed for three years,
+                    Codespaces’ advantage is that it’s directly integrated into GitHub.
+                </p>
+                <p>
+                    It’s worth acknowledging that getting Codespaces set up just right takes an investment the first time around: You need
+                    to figure out which technologies your project needs and ensure that it all comes together just right. But with little
+                    effort up front, when you click “code” on GitHub in the future, it’s all set up in the cloud a matter of seconds, ready
+                    to go.
+                </p>
+                <p>
+                    The debut of Codespaces is the latest in a series of efforts by Microsoft to build out the best developer experience in
+                    the industry. That started with the 2016 decision to add Linux support to Windows, a move that surprised the entire
+                    industry. Nobody expected Microsoft to add support for an open source operating system to its own proprietary system.
+                </p>
+                <p>
+                    Then, in 2018, Microsoft acquired code hosting service GitHub, followed by an acquisition this year of the code
+                    distribution service npm. In the meantime, the company developed Visual Studio Code into the most popular code editor,
+                    used by more than 50% of developers, according to the latest Stack Overflow Developer Survey.
+                </p>
+                <p>
+                    Presumably Microsoft hopes to monetize all of these products by winning over developers, who are likely to eventually
+                    host their projects on its cloud-hosting platform, Azure.
+                </p>
+                <p>
+                    But products like Codespaces a boon for people using lightweight devices like Chromebooks, or even the iPad, which limit
+                    the type of software their users are able to install. Cloud-based software circumvents those restrictions and means that
+                    the machine you’re using to write code is basically irrelevant, as long as you have an internet connection.
+                </p>
+                <p>
+                    For me, that’s what’s exciting about shifting software development into the cloud: freedom to use the computer I want to
+                    use, even if it’s not technically a great developer device (like the Surface Pro X, which uses a limited ARM-based
+                    processor). All I need is a modern web browser, nothing more.
+                </p>
+                <p>
+                    To that end, Codespaces may be the great equalizer for new developers — if your development environment is in the cloud,
+                    it doesn’t matter whether you’re writing code on a $5,000 MacBook Pro or a $300 Chromebook.
+                </p>
+            </div>
+        </div>
+        <div class="footer box">
+            <div class="footer-container">
+                <div class="footer-copyright">
+                    <h3>Copyright 2020</h3>
+                </div>
+                <div class="footer-built">
+                    <h3>Built by Oranje19</h3>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
