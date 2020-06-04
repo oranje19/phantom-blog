@@ -1,0 +1,38 @@
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 250px 100px;
+    grid-template-rows: 100px 600px 150px;
+    grid-template-areas: 
+    "hd hd hd hd"
+    "ct ct ct sd"
+    "ft ft ft ft";
+}
+
+.box {
+    border: 2px solid orange;
+    background: grey;
+}
+
+.header {
+    grid-area: hd;
+}
+
+.sidebar {
+    grid-area: sd;
+}
+
+.content {
+    grid-area: ct;
+}
+
+.footer {
+    grid-area: ft;
+}
