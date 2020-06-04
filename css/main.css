@@ -55,7 +55,7 @@
     display: grid;
     grid-template-columns: 75%;
     grid-template-areas: 
-    "co co . . cr cr";
+    "co co git git lin lin cr cr";
 }
 
 .footer-copyright {
@@ -64,6 +64,14 @@
 
 .footer-built {
     grid-area: cr;
+}
+
+.footer-github {
+    grid-area: git;
+}
+
+.footer-linkedin {
+    grid-area: lin;
 }
 
 /* Medium Screens */
