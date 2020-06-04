@@ -51,6 +51,21 @@
     grid-area: six;
 }
 
+.footer-container {
+    display: grid;
+    grid-template-columns: 75%;
+    grid-template-areas: 
+    "co co . . cr cr";
+}
+
+.footer-copyright {
+    grid-area: co;
+}
+
+.footer-built {
+    grid-area: cr;
+}
+
 /* Medium Screens */
 /* @media(min-width: 600px) and (max-width: 900px) {
     .container {
