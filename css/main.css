@@ -1,4 +1,6 @@
-/* @import "./blog_post.css"; */
+@import "./blog_post.css";
+@import "./medium.css";
+@import "./large.css";
 
 .navbar {
     display: flex;

@@ -1,0 +1,14 @@
+/* Large Screens */
+@media(min-width: 901px) {
+    .container {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 300px 300px 300px;
+        grid-gap: 50px;
+        grid-template-areas: 
+        "one one one two two two"
+        "three three three four four four"
+        "five five five six six six";
+        justify-content: center;
+    }
+} 
